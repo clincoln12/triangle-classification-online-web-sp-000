@@ -20,7 +20,7 @@ class Triangle
   end
   
   class TriangleError < StandardError
-    def initialize(msg="My default message")
+    def initialize
       super
     end
   end
