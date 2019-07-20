@@ -13,6 +13,7 @@ class Triangle
     elsif (length1 == length2) || (length1 == length3) || (length2 == length3)
       :isosceles
     elsif (length1 != length2) && (length2 != length3)
+      :scalene
     end
   end
   
