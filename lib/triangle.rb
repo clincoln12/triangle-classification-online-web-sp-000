@@ -4,7 +4,10 @@ class Triangle
     
   end
   
-  def kind
+  def kind(length1, length2, length3)
+    if length1 == length2 && length2 == length3
+      return :equilateral
+    end
   end
   
 end
