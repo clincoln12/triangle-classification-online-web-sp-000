@@ -16,6 +16,10 @@ class Triangle
       :scalene
     elsif length1 == 0 || length2 == 0 || length3 == 0
       begin 
+        raise TriangleError.new
+      rescue
+        'Help me'
+      end
     end
   end
   
