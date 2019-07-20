@@ -18,7 +18,7 @@ class Triangle
   end
   
   class TriangleError < StandardError
-    raise 'I am gay'
+    raise IAmGayError
   end
   
 end
